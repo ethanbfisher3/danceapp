@@ -1,0 +1,73 @@
+{
+  "expo": {
+    "name": "DanceApp",
+    "slug": "danceapp",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/routines_app_icon.png",
+    "scheme": "routines",
+    "userInterfaceStyle": "light",
+    "jsEngine": "hermes",
+    "newArchEnabled": true,
+    "splash": {
+      "resizeMode": "contain",
+      "backgroundColor": "#6200EE"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.ethanbfisher3.danceapp",
+      "infoPlist": {
+        "ITSAppUsesNonExemptEncryption": false
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#6200EE",
+        "foregroundImage": "./assets/images/routines_app_icon.png",
+        "backgroundImage": "./assets/images/routines_app_icon.png",
+        "monochromeImage": "./assets/images/routines_app_icon.png"
+      },
+      "package": "com.ethanbfisher3.danceapp",
+      "edgeToEdgeEnabled": true,
+      "predictiveBackGestureEnabled": false,
+      "permissions": ["android.permission.RECORD_AUDIO"]
+    },
+    "web": {
+      "output": "static",
+      "favicon": "./assets/images/routines_app_icon.png"
+    },
+    "plugins": [
+      "expo-router",
+      "expo-font",
+      "expo-video",
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "The app needs access to your photos to upload videos for custom steps.",
+          "cameraPermission": "The app needs access to your camera to record videos for custom steps."
+        }
+      ],
+      [
+        "expo-splash-screen",
+        {
+          "image": "./assets/images/routines_app_icon.png",
+          "imageWidth": 200,
+          "resizeMode": "contain",
+          "backgroundColor": "#6200EE"
+        }
+      ],
+      "expo-asset"
+    ],
+    "experiments": {
+      "typedRoutes": true,
+      "reactCompiler": true
+    },
+    "sdkVersion": "54.0.0",
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "99a9b484-5f79-4946-8e87-2d04281f568c"
+      }
+    }
+  }
+}

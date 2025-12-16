@@ -1,0 +1,61 @@
+Ideas needed for app to be completed:
+
+Sort custom moves by styles
+Fix the timing on moves, allowing the user to select certain timings if the moves has different endings
+Moves that are specific endings should be called ending moves or something
+Counts for each move
+Figure out what to do for moves that aren't showed in one video because they're already in another video
+Images for the app (app image on Expo Go)
+
+
+
+Counts for ALL American Rhythm styles except cha cha, International Foxtrot (all levels), Silver and Gold International cha cha, International samba (all levels), International Jive (all levels)
+
+
+Ideas for afterwards:
+
+Somehow allow the user to connect a song to a routine and mark where certain parts, whether faster or slower, are in the song
+Men's vs Women's moves
+Website like ndca for country swing dancing moves?
+Have a random routine generator
+Add timestamps for uploaded videos
+When adding your own video, you should be able to automatically load in the timestamps and save the ones you like
+Make moves for those that are their own moves but the videos show multiple (ex. Fregolina and Farol)
+Recommended moves based on a current orientation
+Orientations for moves 
+
+
+
+
+
+Create Steps for the following:
+
+Cha Cha
+
+Swivel and knee lift
+Half loop
+Kick and Spin
+Back spot turn to cross body spins with lady crossing man
+Syncopated sweetheart
+
+
+Waltz
+
+Pivots
+Syncopated side by side
+Syncopated right turna
+Open rolls with develope
+Circular ronde
+Spirals w/ fallaway
+Wing
+
+
+Tango
+
+La puerta
+Flair promenade
+Corte / medio Corte
+Rocks to promenade
+Reverse turn to viennese crosses
+Shadow position thing
+
