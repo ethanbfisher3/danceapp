@@ -33,6 +33,7 @@
       "permissions": ["android.permission.RECORD_AUDIO"]
     },
     "web": {
+      "bundler": "metro",
       "output": "static",
       "favicon": "./assets/images/routines_app_icon.png"
     },
