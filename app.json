@@ -35,7 +35,8 @@
     "web": {
       "bundler": "metro",
       "output": "static",
-      "favicon": "./assets/images/routines_app_icon.png"
+      "favicon": "./assets/images/routines_app_icon.png",
+      "basePath": "/danceapp"
     },
     "plugins": [
       "expo-router",
@@ -65,7 +66,9 @@
     },
     "sdkVersion": "54.0.0",
     "extra": {
-      "router": {},
+      "router": {
+        "origin": false
+      },
       "eas": {
         "projectId": "99a9b484-5f79-4946-8e87-2d04281f568c"
       }
